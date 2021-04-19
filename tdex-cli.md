@@ -150,7 +150,7 @@ $ ./build/tdex-linux-amd64 config init
 # generate a new mnemonic
 $ SEED=$(./build/tdex-linux-amd64 genseed)
 # init the provider's wallet
-$ ./build/tdex-linux-amd64 init --seed $SEED --password secret
+$ ./build/tdex-linux-amd64 init --seed "${SEED}" --password secret
 # unlock the wallet using the password
 $ ./build/tdex-linux-amd64 unlock --password secret
 ```

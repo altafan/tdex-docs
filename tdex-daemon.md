@@ -175,13 +175,13 @@ $ tdex genseed
 * Initialize the wallet (only the first time or after a restore from seed)
 
 ```sh
-$ tdex init --seed <generatedSeed> --password <mypassword>
+$ tdex init --seed 'my 24 word list' --password <mypassword>
 ```
 
 * **OR** import and restore an existing wallet
 
 ```sh
-$ tdex init --seed <mySeed> --password <mypassword> --restore
+$ tdex init --seed 'my 24 word list' --password <mypassword> --restore
 ```
 
 * Unlock the wallet with chosen password
